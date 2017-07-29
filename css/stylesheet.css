@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Lora|Raleway');
+
+h1 {
+    font-family: 'Lora', serif;
+    font-size: 3em;
+    color: #1C6E8C;
+    }
+
+h2, h5 {
+    font-family: 'Lora', serif;
+    color: #1C6E8C;
+}
+
+h3 {
+    font-family: 'Lora', serif;
+    color: #1C6E8C;
+    font-size:20px;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-size:28px;
+    color: #1C6E8C;
+    /*color:#605856;*/
+}
+
+p::first-letter {
+    color:#605856;
+    font-size:36px;
+    }
+
+a:link {
+    color:#243C4F;
+}
+a:visited {
+    color:#FBFCFF;
+}
+a:hover {
+    color:#DE6B48;
+}
+a:active {
+    color:#FBFCFF;
+}
+
+body {
+    background-color: #F0E0DE;
+    border:3px #605856 solid;
+}
+
+.navigation {
+    display:flex;
+    justify-content: flex-end;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ul li {
+    margin: 10px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.header {
+    margin-left: 20px;
+}
+
+.mainbody{
+    display:flex;
+    flex-direction:column;
+    /*text-align: center;*/
+    width:70%;
+    margin:auto;
+}
+
+#pic1 {
+    margin-left:40%;
+    }
+    
+#pic2 {
+    margin-left:40%;
+}
+
+.images {
+    display:flex;
+    justify-content:space-between;
+    /*width:80%;*/
+    height: 300px;
+    margin-bottom: 5px;
+
+}
+    
+/*footer {*/
+/*    margin-left: 20px*/
+    
+/*no need to include the additional footer tag*/
+
+#end {
+    display:flex;
+    justify-content:space-between;
+    margin: 20px;
+}
